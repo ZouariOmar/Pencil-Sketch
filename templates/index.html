@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/logo.png') }}"><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/logo.png') }}">
+    <title>PS || Home</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <div id="header">
+          <h1>Upload an Image</h1>
+          <label class="custom-upload" for="fileInput">
+            <a>
+              <i class="fa fa-picture-o" aria-hidden="true"></i>
+            </a>
+          </label>
+        </div>
+        <input
+          id="fileInput"
+          type="file"
+          name="image"
+          accept="image/*"
+          required
+          hidden
+        />
+        <div id="imagePreviewContainer">
+          <img
+            id="imagePreview"
+            alt="Selected Image Preview"
+            style="display: none; max-width: 100%; height: auto"
+          />
+        </div>
+        <button id="sbt" type="submit" hidden>Generate Sketch</button>
+      </form>
+      {% if processed_image %}
+      <h2>Processed Image</h2>
+      <img src="{{ processed_image }}" alt="Processed Sketch" />
+      {% endif %}
+    </div>
+    <!-- Link to JS -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
+
+    <title>PS || Home</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <div id="header">
+          <h1>Upload an Image</h1>
+          <label class="custom-upload" for="fileInput">
+            <a>
+              <i class="fa fa-picture-o" aria-hidden="true"></i>
+            </a>
+          </label>
+        </div>
+        <input
+          id="fileInput"
+          type="file"
+          name="image"
+          accept="image/*"
+          required
+          hidden
+        />
+        <div id="imagePreviewContainer">
+          <img
+            id="imagePreview"
+            alt="Selected Image Preview"
+            style="display: none; max-width: 100%; height: auto"
+          />
+        </div>
+        <button id="sbt" type="submit" hidden>Generate Sketch</button>
+      </form>
+      {% if processed_image %}
+      <h2>Processed Image</h2>
+      <img src="{{ processed_image }}" alt="Processed Sketch" />
+      {% endif %}
+    </div>
+    <!-- Link to JS -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
