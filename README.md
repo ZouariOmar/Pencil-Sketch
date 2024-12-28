@@ -18,7 +18,13 @@
 
 ![Pencil Sketch App in Action](static/img/demo.gif)
 
----
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 
 ## Key Features
 
@@ -46,35 +52,35 @@
 
 1. **Clone the Repository**
 
-    ```bash
-    git clone https://github.com/ZouariOmar/Pencil-Sketch.git
-    ```
+   ```bash
+   git clone https://github.com/ZouariOmar/Pencil-Sketch.git
+   ```
 
 2. **Navigate to the Project Directory**
 
-    ```bash
-    cd Pencil-Sketch
-    ```
+   ```bash
+   cd Pencil-Sketch
+   ```
 
 3. **Set Up a Virtual Environment**
 
-    ```bash
-    python -m venv .venv
-    source .venv/bin/activate  # For Linux/macOS
-    .venv\Scripts\activate     # For Windows
-    ```
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # For Linux/macOS
+   .venv\Scripts\activate     # For Windows
+   ```
 
 4. **Install Dependencies**
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 5. **Run the App**
 
-    ```bash
-    python main.py
-    ```
+   ```bash
+   python main.py
+   ```
 
 ---
 
